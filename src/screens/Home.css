@@ -1,0 +1,55 @@
+/* div {
+  overflow-x: hidden;
+} */
+
+.poster_fade {
+  background-image: linear-gradient(transparent, #000);
+  width: 100vw;
+  height: 200px;
+  position: absolute;
+  /* top: calc((100vw * 9 / 16) - 200px); */
+  bottom: 0px;
+}
+.poster_container {
+  display: flex;
+  width: 100vw;
+  height: calc(100vw * 9 / 16);
+  position: relative;
+}
+
+.title {
+  font-family: "Bree Serif";
+}
+
+.movie_title {
+  height: calc(100vw / 10);
+  /* width: 300px; */
+  position: absolute;
+  left: 50px;
+  top: calc(100vw / 6);
+  object-fit: contain;
+}
+.ranking {
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  z-index: 10px;
+}
+
+.popular_movies {
+  padding-left: 20px;
+}
+
+.poster_title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.headerIcons {
+  padding-left: 30px;
+  min-width: 1000px;
+}
