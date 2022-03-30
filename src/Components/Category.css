@@ -1,0 +1,45 @@
+.staff_pick {
+  background-color: #595959;
+  border-radius: 20px;
+  height: 30px;
+  width: 110px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  margin: 10px;
+}
+
+.overview {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  padding-inline: 10px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* .example::-webkit-scrollbar {
+  display: none;
+} */
+
+/* Hide scrollbar for IE and Edge */
+/* .example {
+  -ms-overflow-style: none;
+} */
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+.example:hover {
+  transform: scale(1.1);
+
+  transition: 250ms;
+}
+.category_continer:hover {
+  transform: scale(1.1);
+  /* animation-duration: 0.5s;
+  animation-delay: 1s;
+  padding: 20px; */
+  transition: 250ms;
+}

@@ -29,7 +29,7 @@ const Colors = {
   backgroundColor: "black",
   red: "#E50914",
   grey: "#595959",
-  darkgrey: "#181818",
+  darkgrey: "#141414",
   lightgrey: "#232323",
   white: "#FFFFFF",
 };

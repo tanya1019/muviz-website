@@ -3,8 +3,28 @@
   font-size: 18px;
   padding-left: 30px;
 }
+.nav_options:hover {
+  transform: scale(1.2);
+  transition: 250ms;
+  cursor: pointer;
+}
 
 .nav_elements {
-  font-size: 30px;
+  font-size: 25px;
   padding-right: 20px;
+  align-self: center;
+}
+
+.nav_elements:hover {
+  transform: scale(1.2);
+  transition: 250ms;
+  cursor: pointer;
+}
+.headerIcons {
+  padding-left: 30px;
+}
+
+.headerIcons:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
